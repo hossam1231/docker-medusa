@@ -16,4 +16,4 @@ RUN npm install sharp
 
 RUN npm install --loglevel=error
 
-ENTRYPOINT ["gatsby", "develop", "-H", "0.0.0.0", "-p", "8000" ]
+ENTRYPOINT ["gatsby", "develop", "-H", "127.0.0.2", "-p", "8000" ]
